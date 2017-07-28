@@ -1,0 +1,10 @@
+{
+  "name" : "remoteInterfaces",
+  "friendlyName" : "Remote Interfaces",
+  "priority" : 1,
+  "version" : "1.0.0",
+  "author" : "Magicks",
+  "description" : "Adds the \"interact\" local message to the player so other contexts can open interfaces.",
+  "requires" : [],
+  "includes" : []
+}
