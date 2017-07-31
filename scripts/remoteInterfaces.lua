@@ -5,9 +5,5 @@ local old = init;
 
 function init()
   old()
-  message.setHandler("interact",
-    localHandler(function(iType,config,srcId)
-      player.interact(iType,config,srcId)
-    end)
-  )
+  message.setHandler( "interact", localHandler(player.interact) )
 end
